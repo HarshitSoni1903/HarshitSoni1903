@@ -15,48 +15,6 @@ Representation learning across structured and unstructured data · Causal infere
 
 ---
 
-### Selected work
-
-[**Weakly-Supervised Representation Learning for Cross-Ontology Mapping**](https://github.com/HarshitSoni1903/Weakly-Supervised-Representation-Learning-for-Cross-Ontology-Mapping)
-Improving candidate generation for biomedical ontology alignment using fine-tuned SapBERT embeddings with contrastive learning and vector retrieval over Qdrant. Achieved significant improvements over baselines, with accuracy as high as 92% on CHEBI-MeSH mapping.
-
-[**Regime-Aware Remote Sensing Embeddings**](https://github.com/HarshitSoni1903/Regime-Aware-Remote-Sensing-Embeddings)
-Learning temporal embeddings for satellite imagery to capture regime changes in environmental systems. Distills Prithvi-EO-2.0 into a lightweight ViT encoder and evaluates across classification, change detection, and geographic transfer benchmarks on global Sentinel-2 data.
-
-[**Financial Drivers of Corporate ESG Behavior**](https://github.com/HarshitSoni1903/Financial-Drivers-of-Corporate-ESG-Behavior)
-Studying how firm performance influences ESG investment decisions using CRSP and Refinitiv data. Applied LDS, difference-in-differences, panel threshold regression, and Hidden Markov Models. HMM provided the strongest signal, indicating firms increase ESG investment during market instability.
-
-[**Cross-Cultural Learning in Multilingual Sentiment Analysis**](https://github.com/HarshitSoni1903/Cross-Cultural-Learning-in-Multilingual-Sentiment-Analysis)
-Multilingual sentiment classification across EN, FR, JP, and ZH studying cross-cultural generalization. Applied translation normalization with NLLB-200 and developed gated fusion models with contrastive alignment, outperforming XLM-RoBERTa baselines in low and medium-resource settings.
-
-[**Text-to-SQL: Natural Language Database Querying**](https://github.com/HarshitSoni1903/Text-to-SQL-Natural-Language-Database-Querying)
-Translating natural language queries into executable SQL. Fine-tuned T5-small with schema-aware prompting and beam search decoding, evaluated using execution-based metrics (76.87% test F1).
-
-[**Noise-Resilient Sentiment Analysis**](https://github.com/HarshitSoni1903/Noise-Resilient-Sentiment-Analysis)
-Sentiment classification designed for noisy real-world text. Fine-tuned BERT with a custom augmentation pipeline simulating keyboard typos, spacing errors, and punctuation noise. Improved robustness on noisy inputs while maintaining clean-data accuracy.
-
-[**NYC Transportation Safety Analysis**](https://github.com/HarshitSoni1903/explorer-tdsp-nyc-traffic-analysis)
-Spatial analysis of 2.1M NYC crash records and 13M street construction permits, linked at the segment level using LION IDs. Conducted under Columbia University's Explorer TDSP program with NEBDHub and the U.S. Department of Transportation.
-
-[**Parkinson's Disease Progression Modeling**](https://github.com/HarshitSoni1903/parkinsons-voice-regression-causal)
-Predictive modeling of Parkinson's severity from telemonitoring voice data. Applied PCA and ensemble regressors, then estimated causal effects of vocal biomarkers using inverse probability weighting with propensity scoring.
-
----
-
-### Current work
-
-**Representation learning for structured knowledge data.** Extending embedding and retrieval methods for biomedical ontology systems, focusing on scalable candidate generation and alignment across knowledge bases.
-
-**Causal inference under marketplace interference.** Studying identification and estimation of treatment effects when SUTVA is violated in platform experiments. Comparing design-based and structural estimators, extending Lobel et al.'s shadow-price framework using simulation.
-
-**Causal estimation in adversarial multi-agent settings.** Evaluating whether causal estimators (BART, IPTW) can recover treatment effects when adversaries coordinate inside RNN-generated environments, with sensitivity analysis under ignorability violations.
-
-**Demand-based pricing for retail systems.** Building a pricing engine for perishable goods using discount elasticity estimation, constrained optimization, and backtesting on the FreshRetailNet dataset.
-
-**Urban policy analysis using administrative datasets.** Analyzing NYC 311 complaint patterns and administrative records to study policy impacts using regression discontinuity and temporal methods.
-
----
-
 ### Methods
 
 **Representation learning.** Transformer fine-tuning, contrastive learning, embedding models, cross-ontology semantic alignment, multilingual representation learning, temporal and regime-aware embeddings.
